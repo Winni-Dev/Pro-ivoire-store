@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '225712613361' // À remplacer par le vrai numéro
+const WHATSAPP_NUMBER = '2250712613361' 
 
 interface OrderData {
   productName: string
