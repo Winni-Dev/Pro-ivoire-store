@@ -21,9 +21,8 @@ export function CurrencyProvider({ children }: { children: ReactNode }) {
     if (savedCurrency === 'XOF' || savedCurrency === 'EUR') {
       setCurrency(savedCurrency)
     } else {
-      const userLang = navigator.language
-      const isEuropean = userLang.includes('fr-FR') || userLang.includes('fr-BE') || userLang.includes('fr-CH')
-      setCurrency(isEuropean ? 'EUR' : 'XOF')
+      // Définit le Franc CFA comme devise par défaut pour tous les nouveaux visiteurs
+      setCurrency('XOF')
     }
     setIsLoaded(true)
   }, [])

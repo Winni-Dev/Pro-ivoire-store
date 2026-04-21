@@ -29,7 +29,7 @@ export function Footer() {
             <h4 className="mb-3 font-semibold">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>📞 +225 07 12 61 33 61</li>
-              <li>✉️ contact@proivoire.com</li>
+              <li>✉️ proivoirestore@gmail.com</li>
             </ul>
           </div>
           
