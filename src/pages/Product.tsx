@@ -546,7 +546,7 @@ export function Product() {
       decodeURIComponent(whatsappLink.split('text=')[1]) + 
       `\n*Date de livraison souhaitée :* ${orderData.deliveryDate}`
     )
-    const finalLink = `https://wa.me/225712613361?text=${encodedMessage}`
+    const finalLink = `https://wa.me/2250712613361?text=${encodedMessage}`
     
     window.open(finalLink, '_blank')
   }
