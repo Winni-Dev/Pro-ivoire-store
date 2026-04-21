@@ -276,92 +276,92 @@ export interface Product {
   careInstructions: string
 }
 
-// Import des images depuis le dossier src/images
+// Import des images depuis le dossier src/IMAGES
 // Tu pourras ajuster les chemins et noms de fichiers selon tes images
 
 // T-shirt Pro Ivoire - Orange
-import tshirtProOrange1 from '../images/teeO.jpeg'
-// import tshirtProOrange2 from '../images/tshirt-pro-orange-2.jpg'
-// import tshirtProOrange3 from '../images/tshirt-pro-orange-3.jpg'
-// import tshirtProOrange4 from '../images/tshirt-pro-orange-4.jpg'
+import tshirtProOrange1 from '../IMAGES/teeO.jpeg'
+// import tshirtProOrange2 from '../IMAGES/tshirt-pro-orange-2.jpg'
+// import tshirtProOrange3 from '../IMAGES/tshirt-pro-orange-3.jpg'
+// import tshirtProOrange4 from '../IMAGES/tshirt-pro-orange-4.jpg'
 
 // T-shirt Pro Ivoire - Vert
-import tshirtProVert1 from '../images/TEveravant.jpeg'
-import tshirtProVert2 from '../images/TEEV.jpeg'
-import tshirtProVert3 from '../images/TEEvertarr.jpeg'
+import tshirtProVert1 from '../IMAGES/TEveravant.jpeg'
+import tshirtProVert2 from '../IMAGES/TEEV.jpeg'
+import tshirtProVert3 from '../IMAGES/TEEvertarr.jpeg'
 
 
 // T-shirt Pro Ivoire - Blanc
-import tshirtProBlanc1 from '../images/TEEblanAV.jpeg'
-import tshirtProBlanc2 from '../images/TEEblanAR.jpeg'
-// import tshirtProBlanc3 from '../images/TEEblanAR.jpeg'
-// import tshirtProBlanc4 from '../images/tshirt-pro-blanc-4.jpg'
+import tshirtProBlanc1 from '../IMAGES/TEEblanAV.jpeg'
+import tshirtProBlanc2 from '../IMAGES/TEEblanAR.jpeg'
+// import tshirtProBlanc3 from '../IMAGES/TEEblanAR.jpeg'
+// import tshirtProBlanc4 from '../IMAGES/tshirt-pro-blanc-4.jpg'
 
 // T-shirt Pro Ivoire - Noir
-// import tshirtProNoir1 from '../images/TEEblanAV2.jpeg'
-// import tshirtProNoir2 from '../images/tshirt-pro-noir-2.jpg'
-// import tshirtProNoir3 from '../images/tshirt-pro-noir-3.jpg'
-// import tshirtProNoir4 from '../images/tshirt-pro-noir-4.jpg'
+// import tshirtProNoir1 from '../IMAGES/TEEblanAV2.jpeg'
+// import tshirtProNoir2 from '../IMAGES/tshirt-pro-noir-2.jpg'
+// import tshirtProNoir3 from '../IMAGES/tshirt-pro-noir-3.jpg'
+// import tshirtProNoir4 from '../IMAGES/tshirt-pro-noir-4.jpg'
 
 // Polo Elite Ivoirien - Blanc
-import poloEliteBlanc1 from '../images/poloblancav.jpeg'
-import poloEliteBlanc2 from '../images/poloblancarr.jpeg'
-import poloEliteBlanc3 from '../images/poloblancdou.jpeg'
-// import poloEliteBlanc4 from '../images/polo-elite-blanc-4.jpg'
+import poloEliteBlanc1 from '../IMAGES/poloblancav.jpeg'
+import poloEliteBlanc2 from '../IMAGES/poloblancarr.jpeg'
+import poloEliteBlanc3 from '../IMAGES/poloblancdou.jpeg'
+// import poloEliteBlanc4 from '../IMAGES/polo-elite-blanc-4.jpg'
 
 // Polo Elite Ivoirien - Noir
-import poloEliteNoir1 from '../images/polonoirArr.jpeg'
-// import poloEliteNoir2 from '../images/polo-elite-noir-2.jpg'
-// import poloEliteNoir3 from '../images/polo-elite-noir-3.jpg'
-// import poloEliteNoir4 from '../images/polo-elite-noir-4.jpg'
+import poloEliteNoir1 from '../IMAGES/polonoirArr.jpeg'
+// import poloEliteNoir2 from '../IMAGES/polo-elite-noir-2.jpg'
+// import poloEliteNoir3 from '../IMAGES/polo-elite-noir-3.jpg'
+// import poloEliteNoir4 from '../IMAGES/polo-elite-noir-4.jpg'
 
 // Polo Elite Ivoirien - Vert
-// import poloEliteVert1 from '../images/polonoirArr.jpeg'
-// import poloEliteVert2 from '../images/polo-elite-vert-2.jpg'
-// import poloEliteVert3 from '../images/polo-elite-vert-3.jpg'
-// import poloEliteVert4 from '../images/polo-elite-vert-4.jpg'
+// import poloEliteVert1 from '../IMAGES/polonoirArr.jpeg'
+// import poloEliteVert2 from '../IMAGES/polo-elite-vert-2.jpg'
+// import poloEliteVert3 from '../IMAGES/polo-elite-vert-3.jpg'
+// import poloEliteVert4 from '../IMAGES/polo-elite-vert-4.jpg'
 
 // Polo Elite Ivoirien - Orange
-import poloEliteOrange1 from '../images/poloOravv.jpeg'
-import poloEliteOrange2 from '../images/poloOrarr.jpeg'
-import poloEliteOrange3 from '../images/poloOrdou.jpeg'
-// import poloEliteOrange4 from '../images/polo-elite-orange-4.jpg'
+import poloEliteOrange1 from '../IMAGES/poloOravv.jpeg'
+import poloEliteOrange2 from '../IMAGES/poloOrarr.jpeg'
+import poloEliteOrange3 from '../IMAGES/poloOrdou.jpeg'
+// import poloEliteOrange4 from '../IMAGES/polo-elite-orange-4.jpg'
 
 // T-shirt Éléphant - Blanc
-import tshirtElephantBlanc1 from '../images/TEEblanAV2.jpeg'
-import tshirtElephantBlanc2 from '../images/TEEblanAR.jpeg'
-// import tshirtElephantBlanc3 from '../images/tshirt-elephant-blanc-3.jpg'
-// import tshirtElephantBlanc4 from '../images/tshirt-elephant-blanc-4.jpg'
+import tshirtElephantBlanc1 from '../IMAGES/TEEblanAV2.jpeg'
+import tshirtElephantBlanc2 from '../IMAGES/TEEblanAR.jpeg'
+// import tshirtElephantBlanc3 from '../IMAGES/tshirt-elephant-blanc-3.jpg'
+// import tshirtElephantBlanc4 from '../IMAGES/tshirt-elephant-blanc-4.jpg'
 
 // T-shirt Éléphant - Noir
-// import tshirtElephantNoir1 from '../images/TEEnoirAV.jpeg'
-// import tshirtElephantNoir2 from '../images/tshirt-elephant-noir-2.jpg'
-// import tshirtElephantNoir3 from '../images/tshirt-elephant-noir-3.jpg'
-// import tshirtElephantNoir4 from '../images/tshirt-elephant-noir-4.jpg'
+// import tshirtElephantNoir1 from '../IMAGES/TEEnoirAV.jpeg'
+// import tshirtElephantNoir2 from '../IMAGES/tshirt-elephant-noir-2.jpg'
+// import tshirtElephantNoir3 from '../IMAGES/tshirt-elephant-noir-3.jpg'
+// import tshirtElephantNoir4 from '../IMAGES/tshirt-elephant-noir-4.jpg'
 
 // T-shirt Éléphant - Orange
-import tshirtElephantOrange1S from '../images/TEEorangeSimpl.jpeg'
-// import tshirtElephantOrange2 from '../images/tshirt-elephant-orange-2.jpg'
-// import tshirtElephantOrange3 from '../images/tshirt-elephant-orange-3.jpg'
-// import tshirtElephantOrange4 from '../images/tshirt-elephant-orange-4.jpg'
+import tshirtElephantOrange1S from '../IMAGES/TEEorangeSimpl.jpeg'
+// import tshirtElephantOrange2 from '../IMAGES/tshirt-elephant-orange-2.jpg'
+// import tshirtElephantOrange3 from '../IMAGES/tshirt-elephant-orange-3.jpg'
+// import tshirtElephantOrange4 from '../IMAGES/tshirt-elephant-orange-4.jpg'
 
 // Polo Premium Noir - Noir
-import poloPremiumNoir1 from '../images/polonoirArr.jpeg'
-// import poloPremiumNoir2 from '../images/polo-premium-noir-2.jpg'
-// import poloPremiumNoir3 from '../images/polo-premium-noir-3.jpg'
-// import poloPremiumNoir4 from '../images/polo-premium-noir-4.jpg'
+import poloPremiumNoir1 from '../IMAGES/polonoirArr.jpeg'
+// import poloPremiumNoir2 from '../IMAGES/polo-premium-noir-2.jpg'
+// import poloPremiumNoir3 from '../IMAGES/polo-premium-noir-3.jpg'
+// import poloPremiumNoir4 from '../IMAGES/polo-premium-noir-4.jpg'
 
 // Polo Premium Noir - Orange
-import poloPremiumOrange1 from '../images/poloOrarr.jpeg'
-import poloPremiumOrange2 from '../images/poloOravv.jpeg'
-import poloPremiumOrange3 from '../images/poloOrdou.jpeg'
-// import poloPremiumOrange4 from '../images/polo-premium-orange-4.jpg'
+import poloPremiumOrange1 from '../IMAGES/poloOrarr.jpeg'
+import poloPremiumOrange2 from '../IMAGES/poloOravv.jpeg'
+import poloPremiumOrange3 from '../IMAGES/poloOrdou.jpeg'
+// import poloPremiumOrange4 from '../IMAGES/polo-premium-orange-4.jpg'
 
 // Polo Premium Noir - Blanc
-import poloPremiumBlanc1 from '../images/poloblancav.jpeg'
-import poloPremiumBlanc2 from '../images/poloblancarr.jpeg'
-import poloPremiumBlanc3 from '../images/poloblancdou.jpeg'
-// import poloPremiumBlanc4 from '../images/polo-premium-blanc-4.jpg'
+import poloPremiumBlanc1 from '../IMAGES/poloblancav.jpeg'
+import poloPremiumBlanc2 from '../IMAGES/poloblancarr.jpeg'
+import poloPremiumBlanc3 from '../IMAGES/poloblancdou.jpeg'
+// import poloPremiumBlanc4 from '../IMAGES/polo-premium-blanc-4.jpg'
 
 export const products: Product[] = [
   {
