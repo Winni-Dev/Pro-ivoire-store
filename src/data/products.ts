@@ -494,7 +494,7 @@ export const products: Product[] = [
     id: 3,
     name: "T-shirt Éléphant",
     baseDescription: "T-shirt avec motif élégant de l'éléphant, symbole de force et de sagesse.",
-    priceXOF: 6000,
+    priceXOF: 7000,
     priceEUR: 14,
     variants: [
       {
