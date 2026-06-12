@@ -363,6 +363,13 @@ import poloPremiumBlanc2 from '../IMAGES/poloblancarr.jpeg'
 import poloPremiumBlanc3 from '../IMAGES/poloblancdou.jpeg'
 // import poloPremiumBlanc4 from '../IMAGES/polo-premium-blanc-4.jpg'
 
+// Chemise Premium - Blanc
+import CheB from '../IMAGES/ChemiseB.jpeg'
+// Chemise Premium - R
+import CheR from '../IMAGES/ChemiseR.jpeg'
+// Chemise Premium - Orange
+import CheO from '../IMAGES/ChemiseO.jpeg'
+
 export const products: Product[] = [
   {
     id: 1,
@@ -602,5 +609,65 @@ export const products: Product[] = [
     features: ["Détails orange contrastés", "Tissu premium respirant", "Boutons signature", "Coupe athlétique"],
     materials: "100% Coton piqué de luxe",
     careInstructions: "Lavage à 30°, repassage doux"
-  }
+  },
+    {
+    id: 5,
+    name: "Chemise Pro Ivoire",
+    baseDescription: "Chemise premium en coton biologique. Design élégant aux couleurs de la Côte d'Ivoire.",
+    priceXOF: 15000,
+    priceEUR: 12,
+    variants: [
+      {
+        color: "#FF6B00",
+        colorName: "Orange Ivoirien",
+        images: [
+          CheO,
+        //   tshirtProOrange2,
+        //   tshirtProOrange3,
+        //   tshirtProOrange4,
+        ],
+        description: "Chemise orange vibrant qui capture l'énergie et la passion de la Côte d'Ivoire.",
+        inStock: true
+      },
+      // {
+      //   color: "#009E60",
+      //   colorName: "Vert Espoir",
+      //   images: [
+      //     tshirtProVert1,
+      //     tshirtProVert2,
+      //     tshirtProVert3,
+      //   //   tshirtProVert4,
+      //   ],
+      //   description: "T-shirt vert élégant symbolisant l'espoir et la prospérité.",
+      //   inStock: true
+      // },
+      {
+        color: "#FFFFFF",
+        colorName: "Blanc Pur",
+        images: [
+          CheB,
+          // tshirtProBlanc2,
+        //   tshirtProBlanc3,
+        //   tshirtProBlanc4,
+        ],
+        description: "Chemise blanc intemporelle et polyvalente. La pièce essentielle de toute garde-robe.",
+        inStock: true
+      },
+      {
+        color: "#F4B4C4",
+        colorName: "Rose Élégant",
+        images: [
+         CheR
+        ],
+        description: "Chemise à rayures rose sophistiquée qui allie élégance et caractère.",
+        inStock: true
+      }
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    popular: true,
+    category: "t-shirt",
+    features: ["Coton biologique 100%", "Coupe athlétique premium", "Fini anti-transpirant", "Logo brodé qualité supérieure"],
+    materials: "100% Coton biologique certifié GOTS",
+    careInstructions: "Lavage à 30°, séchage à l'ombre"
+  },
 ]
